@@ -1,0 +1,72 @@
+/* HEADER is a flex container */
+.header {
+    grid-area: hd;
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: flex-end; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 11%;
+    background-color: hsl(271, 65%, 55%);
+}
+
+/* AVATAR */
+.avatar {
+    /* justify-self: flex-start; */
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 50%;
+        /* Makes avatar reappear after hover off */
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 2s linear;
+}
+
+.avatar:hover {
+    /* Makes avatar disappear when mouse hovers over */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+}
+
+/* TITLE */
+h1.title {
+    color: rgb(118, 40, 40);
+    justify-content: center; 
+    text-shadow: 2px 2px #ff0000;
+}
+
+/* LINK flex items */
+.nav_links li a:hover{
+    color: #ac0a35;
+}
+
+.nav_links li a{
+    color: white;
+}
+
+.nav_links li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 15px;
+    color: white;
+}
+
+/* CONTACT BUTTON */
+.button {
+    padding: 11px 30px;
+    background-color: honeydew;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover, .cfm-button:hover {
+    filter: blur(1px);
+}
+/* Turning off link underlines and list buttons and adding fonts */
+li, a, button {
+    list-style: none;
+    text-decoration: none;
+}
