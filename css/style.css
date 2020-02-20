@@ -16,7 +16,6 @@ html {
 
 body {
     display: grid;
-    grid-template-columns:;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
         "hd hd hd"
@@ -35,7 +34,7 @@ body {
     min-width: 526px;
     max-height: 320px;
     padding: 20px;
-    background-color: darkgreen;
+    background-color: rgb(63, 227, 63);
     /* box-shadow: 0 1.5rem 8rem royalblue; */
     display: flex;
     /* flex-direction: column; */
@@ -45,15 +44,7 @@ body {
     justify-content: center;
     justify-self: center;
     justify-content: center;
-    box-shadow: 5px 10px salmon;
-}
-
-.blog-post-img {
-    /* min-width: 35rem;
-    max-width: 35rem;
-    height: 30rem; */
-    /* transform: translateX(-8rem);
-    position: relative; */
+    box-shadow: 5px 10px rgb(100, 3, 170);
 }
 
 .cfm-button {
@@ -69,6 +60,7 @@ body {
 .blog-post-text {
     padding: 5px;
     color: whitesmoke;
+    text-align: justify;
 }
 
 .date {
