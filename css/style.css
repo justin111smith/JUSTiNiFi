@@ -47,6 +47,7 @@ body {
     box-shadow: 5px 10px rgb(100, 3, 170);
 }
 
+/* Click For More Button */
 .cfm-button {
     padding: 11px 30px;
     margin: 11px;
@@ -60,11 +61,13 @@ body {
 .blog-post-text {
     padding: 5px;
     color: whitesmoke;
-    text-align: justify;
 }
 
 .date {
     font-weight: bolder;
+    position: relative;
+    left: 80px;
+    
 }
 
 .blog-post-info {

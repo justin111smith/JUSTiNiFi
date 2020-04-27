@@ -2,7 +2,7 @@
 .header {
     grid-area: hd;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     /* justify-content: flex-end; */
     align-items: center;
     justify-content: space-between;
@@ -26,7 +26,7 @@
     /* Makes avatar disappear when mouse hovers over */
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s 2s, opacity 2s linear;
+    transition: visibility 0s .5s, opacity 2s linear;
 }
 
 /* TITLE */
