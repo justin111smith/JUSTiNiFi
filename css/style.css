@@ -43,30 +43,32 @@ body {
     border-radius: .8rem;
     justify-content: center;
     justify-self: center;
-    justify-content: center;
     box-shadow: 5px 10px rgb(100, 3, 170);
 }
 
+.blog-post-title {
+    align-self: center;
+    padding-left: 40px;
+}
 /* Click For More Button */
-.cfm-button {
-    padding: 11px 30px;
-    margin: 11px;
+.listen-button {
+    padding: 11px 20px;
+    margin: 10px;
     background-color: honeydew;
     border: 2px dotted purple;
     border-radius: 50%;
     cursor: pointer;
-    /* transition: all 0.3s ease 0s; */
+    justify-content: center;
 }
 
 .blog-post-text {
-    padding: 5px;
+    padding: 20px;
     color: whitesmoke;
 }
 
 .date {
     font-weight: bolder;
-    position: relative;
-    left: 80px;  
+    
 }
 
 .blog-post-info {
