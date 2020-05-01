@@ -4,3 +4,34 @@
     padding: 20px;
     text-align: right;
 }
+
+.footer-main-div{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: rgb(16, 124, 57);
+    padding: 20px 0px;
+    bottom: 0;
+    position: absolute;
+}
+
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-social-icons ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: rgb(0, 255, 13)
+}
