@@ -32,9 +32,7 @@
 /* TITLE */
 h1.title {
     color: rgb(43, 161, 62);
-    /* justify-content: center;  */
     text-shadow: 1.1px 1.1px #05678d;
-    /* justify-items: start; */
 }
 
 .active {
