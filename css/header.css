@@ -3,7 +3,6 @@
     grid-area: hd;
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-end; */
     align-items: center;
     justify-content: space-between;
     padding: 30px 11%;
@@ -12,15 +11,13 @@
 
 /* AVATAR */
 .avatar {
-    /* justify-self: flex-start; */
-    ;
     margin-right: auto;
     cursor: pointer;
     border-radius: 50%;
-        /* Makes avatar reappear after hover off */
+        /* Makes avatar blink */
         visibility: visible;
         opacity: 1;
-        transition: opacity 2s linear;
+        transition: opacity 3s linear;
 }
 
 .avatar:hover {
