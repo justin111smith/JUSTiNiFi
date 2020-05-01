@@ -37,30 +37,30 @@ h1.title {
 
 .active {
     color: rgb(43, 161, 62);
-    text-shadow: 2px 2px #93c9df;
+    text-shadow: .25px .25px #0876a1;
 }
 
 .inactive {
-    color: rgb(24, 92, 35);
+    color: rgb(20, 20, 20);
     text-decoration-line: line-through;
 
 }
 
 /* LINK flex items */
-.nav_links li a:hover{
+.nav-links li a:hover{
     color: #2890c0;
     text-shadow: 1px 1px #05678d;
 }
 
-.nav_links li a{
-    color: white;
+.nav-links li a{
+    /* color: white; */
 }
 
-.nav_links li {
+.nav-links li {
     display: inline-block;
     justify-content: space-between;
     padding: 0 15px;
-    color: white;
+    /* color: white; */
 }
 
 /* CONTACT BUTTON */
