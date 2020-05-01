@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 30px 11%;
     background-color: hsl(271, 65%, 55%);
 }
@@ -13,6 +13,7 @@
 .avatar {
     margin-right: auto;
     cursor: pointer;
+    margin-right: 25px;
     border-radius: 50%;
         /* Makes avatar blink */
         visibility: visible;
@@ -25,18 +26,21 @@
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s .5s, opacity 2s linear;
+    filter: blur(1px);
 }
 
 /* TITLE */
 h1.title {
-    color: rgb(118, 40, 40);
-    justify-content: center; 
-    text-shadow: 2px 2px #ff0000;
+    color: rgb(43, 161, 62);
+    /* justify-content: center;  */
+    text-shadow: 2px 2px #05678d;
+    justify-items: start;
 }
 
 /* LINK flex items */
 .nav_links li a:hover{
-    color: #ac0a35;
+    color: #2890c0;
+    text-shadow: 1px 1px #05678d;
 }
 
 .nav_links li a{
@@ -63,6 +67,7 @@ h1.title {
 .button:hover, .cfm-button:hover {
     filter: blur(1px);
 }
+
 /* Turning off link underlines and list buttons and adding fonts */
 li, a, button {
     list-style: none;
