@@ -1,6 +1,7 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("video.css");
+@import url("audio.css");
 
 *,
 *::before,
@@ -46,13 +47,17 @@ body {
 
 .blog-post-title {
     align-self: center;
-    padding-left: 1em;
+    padding-left: 2.3em;
+    margin-top: 1px;
+    margin-left: .42em;
+    display: inline;
 }
 
 /* Listen Button */
 .listen-button {
     padding: 11px 20px;
-    margin: 80px;
+    margin-left: 11em;
+    margin-top: 5em;
     background-color: honeydew;
     border: 2px dotted purple;
     border-radius: 50%;
@@ -67,6 +72,7 @@ body {
     padding-left: 1em;
     margin-left: 1em;
     color: rgb(0, 0, 0);
+    display: inline;
 }
 
 .blog-post-info {
