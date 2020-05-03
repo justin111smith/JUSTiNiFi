@@ -78,3 +78,7 @@ body {
 .blog-post-info {
     height: 224px;
 }
+
+img{
+    max-width: 100%;
+}
