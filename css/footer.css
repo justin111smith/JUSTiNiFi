@@ -1,3 +1,7 @@
+.footer-wrapper{
+    display: inline;
+}
+
 .footer {
     grid-area: ft;
     background-color: blueviolet;
