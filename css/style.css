@@ -348,12 +348,12 @@ li {
     
     body {
         display: grid;
-        grid-template-rows: auto 1fr auto;
+        grid-template-rows: auto auto 1fr;
         grid-template-areas:
-            "hd hd hd"
-            "mn mn mn"
-            "ft ft ft";
-        grid-gap: 111px;
+            "hd"
+            "mn"
+            "ft";
+        grid-gap: 45px;
         min-height: 100%;
         margin: 0;
         background-color: #066868;
@@ -416,5 +416,38 @@ li {
 
     img{
         max-width: 100%;
+    }
+    /*MUSIC PAGE*/
+    .blog-post-title-music{
+        font-size: inherit;
+        text-align: center;
+    }
+    .blog-post-text-music{
+        text-align: center;
+    }
+    .img-music{
+        display:none;
+    }
+    audio{
+        align-self: center;
+    }
+
+/* VIDEO PAGE */
+    .video-post-card{
+        max-height: 230px; 
+        max-width: 400px;
+    }
+    .img-video{
+        display:none;
+    }
+    .blog-post-title-video{
+        text-align: center;
+    }
+    .blog-post-text-video{
+        text-align: center;
+        font-size: small;
+    }
+    .video-player{
+        max-height: 175px;
     }
 }

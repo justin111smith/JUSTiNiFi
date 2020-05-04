@@ -108,15 +108,31 @@
 }
 
 @media(min-width:901px){
-    body {
-        display: grid;
-        grid-template-rows: auto 1fr auto;
-        grid-template-areas:
-            "hd hd hd"
-            "mn mn mn"
-            "ft ft ft";
-        grid-gap: 111px;
+    header {
+        display: flex;
+        grid-area: hd;
+        min-width: 100%;
+        justify-content: space-evenly;
         min-height: 100%;
-        margin: 0;
-        background-color: #066868;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        background-color: #043131;
+    }
+    a:link{
+        text-decoration: none;
+    }
+    a:visited{
+        text-decoration: none;
+    }
+    .avatar {
+        display:none;
+    }
+    nav h1 {
+        display: inline;
+    }
+    .contact {
+        display: inline;
+        margin-left: 2em;
     }
