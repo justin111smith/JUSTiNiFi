@@ -56,6 +56,8 @@ li {
         box-shadow: 5px 10px rgb(100, 3, 170);
         margin-left:auto;
         margin-right:auto;
+        background-image: url("../img/canvas.png");
+        
     }
 
     .blog-post-title-main {
@@ -168,8 +170,6 @@ li {
     }
 
     .blog-post-title-main {
-
-        /* display: inline-block; */
         margin-left: -5.5em;
     }
 
@@ -216,7 +216,7 @@ li {
         text-align: center;
     }
     .img-music{
-        display:none;
+        /* display:none; */
     }
     audio{
         align-self: center;
@@ -317,7 +317,7 @@ li {
         text-align: center;
     }
     .img-music{
-        display:none;
+        /* display:none; */
     }
     audio{
         align-self: center;
@@ -426,7 +426,7 @@ li {
         text-align: center;
     }
     .img-music{
-        display:none;
+        /* display:none; */
     }
     audio{
         align-self: center;

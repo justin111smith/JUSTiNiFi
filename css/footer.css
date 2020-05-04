@@ -25,7 +25,7 @@
         background: rgb(16, 124, 57);
         padding: 20px 0px;
         bottom: 0;
-        position: relative;
+        position: absolute;
     }
     .footer-social-icons{
         width: 100%;
@@ -78,9 +78,9 @@
         height: auto;
         margin-top: 20px;
         background: rgb(16, 124, 57);
-        padding: 20px 0px;
+        padding: 10px 0px;
         bottom: 0;
-        position: relative;
+        position: absolute;
     }
 }
 @media(min-width:573px)and (max-width:900px){
@@ -114,9 +114,9 @@
         height: auto;
         margin-top: 20px;
         background: rgb(16, 124, 57);
-        padding: 20px 0px;
+        padding: 10px 0px;
         bottom: 0;
-        position: sticky;
+        position: absolute;
     }
 }
 
@@ -130,10 +130,10 @@
     }
     
     .footer-social-icons ul li{
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         margin: 0px 5px;
-        padding: 5px;
+        padding: 17px;
         border-radius: 100%;
         background: rgb(0, 255, 13);
     }
@@ -151,10 +151,8 @@
         height: auto;
         margin-top: 20px;
         background: rgb(16, 124, 57);
-        padding: 20px 0px;
+        padding: 10px 0px;
         bottom: 0;
-        position: sticky;
+        position: absolute;
     }
-}
-
 }
