@@ -1,66 +1,46 @@
-/* HEADER is a flex container */
-.header {
-    grid-area: hd;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 1.25em 11%;
-    background-color: hsl(199, 83%, 25%);
+@media(max-width:320px){
+    header {
+        display: block;
+        grid-template-columns: auto;
+        min-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        background-color: #043131;
+    }
+    a:link{
+        text-decoration: none;
+    }
+    a:visited{
+        text-decoration: none;
+    }
+    .avatar {
+        display:none;
+    }
+    nav h1 {
+        display: inline-flex;
+    }
+    .contact {
+        display: block;
+        margin-left: 2em;
+    }
 }
 
-/* AVATAR */
-.avatar {
-    margin-right: auto;
-    cursor: pointer;
-    margin-right: 25px;
-    border-radius: 50%;
-        /* Makes avatar blink */
-        visibility: visible;
-        opacity: 1;
-        transition: opacity 3s linear;
+@media(min-width:600px)and (max-width:900px){
+  
 }
 
-.avatar:hover {
-    /* Makes avatar disappear when mouse hovers over */
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s .5s, opacity 2s linear;
-    filter: blur(1px);
-}
-
-/* TITLE */
-h1.title {
-    color: rgb(43, 161, 62);
-    text-shadow: 1.1px 1.1px #05678d;
-}
-
-h1.active {
-    color: rgb(43, 161, 62);
-    text-shadow: .25px .25px #0876a1;
-}
-
-h1.inactive {
-    color: rgb(20, 20, 20);
-    text-decoration-line: line-through;
-}
-
-/* CONTACT BUTTON */
-.button {
-    padding: 11px 30px;
-    background-color: honeydew;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-
-.button:hover, .cfm-button:hover {
-    filter: blur(1px);
-}
-
-/* Turning off link underlines and list buttons and adding fonts */
-li, a, button {
-    list-style: none;
-    text-decoration: none;
-}
+@media(min-width:901px){
+    body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+            "hd hd hd"
+            "mn mn mn"
+            "ft ft ft";
+        grid-gap: 111px;
+        min-height: 100%;
+        margin: 0;
+        background-color: #066868;
+    }
