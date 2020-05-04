@@ -1,13 +1,20 @@
-@media(max-width:320px){
-    header {
+@media(max-width:430px){
+    .title {
+        color: lawngreen;
+    }
+    .header {
         display: block;
+        flex-direction: row;
+        min-width: 100%;
         grid-template-columns: auto auto;
         min-height: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
         margin-top: 1em;
         background-color: #043131;
+        text-align: center;
+        padding-bottom: 1em;
     }
     a:link{
         text-decoration: none;
@@ -19,15 +26,16 @@
         display:none;
     }
     nav h1 {
-        display: inline-flex;
+     text-align: center;
     }
-    .contact {
+    .button {
         display: block;
-        margin-left: 2em;
+        align-content: center;
+
     }
 }
 
-@media(min-width:321px)and (max-width:572px){
+@media(min-width:431px)and (max-width:572px){
     header {
         display: flex;
         grid-template-columns: auto auto;
