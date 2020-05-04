@@ -16,10 +16,13 @@ html {
     height: 100%;
 }
 
-@media(max-width:320px){
+li {
+    list-style-type: none;
+}
+@media(max-width:430px){
     body {
         display: grid;
-        grid-template-rows: 111px auto 111px;
+        grid-template-rows: auto auto 1fr;
         grid-template-areas:
             "hd"
             "mn"
@@ -125,7 +128,7 @@ html {
     }
 }
 
-@media(min-width:321px)and (max-width:572px){
+@media(min-width:431px)and (max-width:572px){
     body {
         display: grid;
         grid-template-rows: auto auto 1fr;
