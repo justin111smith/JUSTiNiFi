@@ -1,7 +1,7 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("video.css");
-@import url("audio.css");
+@import url("music.css");
 
 *,
 *::before,
@@ -125,8 +125,6 @@ li {
     .blog-post-text{
         font-size: .7em;
     }
-
-
 
 /*MUSIC PAGE*/
     .blog-post-title-music{

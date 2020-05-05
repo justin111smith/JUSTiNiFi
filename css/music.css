@@ -1,0 +1,22 @@
+/* audio {
+    width: 81%;
+    margin-left: 42px;
+    margin-top: 62px;
+  } */
+
+  @media(max-width:320px){
+    .blog-post-text-music {
+      text-align: center;
+    }
+
+    audio {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .audio-player-wrapper{
+      display: flex;
+      align-items: center;
+    }
+
+  }
