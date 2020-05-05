@@ -1,11 +1,36 @@
+@media(max-width:320px){
+ 
+    li.navbar-li{
+        font-size:.5em;
+    }
+
+/* CENTER LISTEN BUTTON */
+    .listen-page {
+        display: flex;
+        justify-content: center;
+    }
+    .listen-button{
+        font-size: 8px;
+        margin: 0 auto;
+    }
+    .header{
+        margin-bottom: 5px;
+    }
+}
+/* VIEWPORT 321px-430px */
 @media(max-width:430px){
+    img.avatar{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .title {
         color: lawngreen;
     }
     .header {
         min-width: 100%;
         min-height: 100%;
-        margin-bottom: 2em;
+        margin-bottom: .2em;
         margin-top: 1em;
         background-color: #043131;
         text-align: center;

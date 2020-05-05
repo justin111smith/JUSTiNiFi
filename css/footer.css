@@ -10,19 +10,21 @@
     .footer-wrapper{
         display: inline;
     }
+
     .footer-copyright {
         grid-area: ft;
         background-color: blueviolet;
         padding: auto;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 3px;
+        font-size: 66%;
     }
     
     .footer-main-div{
         width: 100%;
         height: auto;
         margin: auto;
-        background: rgb(16, 124, 57);
+        background:;
         padding: 20px 0px;
         bottom: 0;
         position: absolute;
