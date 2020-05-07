@@ -1,23 +1,19 @@
-@media(max-width:320px){
-    li.navbar-li{
-        font-size:.5em;
-    }
-
-/* CENTER LISTEN BUTTON */
-    .listen-page{
-        display: flex;
-        justify-content: center;
-    }
-    .listen-button{
-        font-size: 8px;
-        margin: 0 auto;
-    }
+/* VIEWPORT 321px-430px */
+@media(max-width:465px){
     .header{
         margin-bottom: 15px;
     }
-}
-/* VIEWPORT 321px-430px */
-@media(max-width:430px){
+    
+    .blog-post-card{
+        margin-top: 25px;
+        display: flex;
+        justify-items: center;
+    }
+
+    .blog-post-title-main{
+        font-size: 12px;
+    }
+    
     img.avatar{
         margin-left: auto;
         margin-right: auto;
@@ -70,7 +66,7 @@
     }
 }
 
-@media(min-width:431px)and (max-width:572px){
+@media(min-width:466px)and (max-width:572px){
     .title {
         color: lawngreen;
     }

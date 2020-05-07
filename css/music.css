@@ -1,10 +1,4 @@
-/* audio {
-    width: 81%;
-    margin-left: 42px;
-    margin-top: 62px;
-  } */
-
-  @media(max-width:320px){
+@media(max-width:320px){
     .blog-post-text-music {
       text-align: center;
     }
