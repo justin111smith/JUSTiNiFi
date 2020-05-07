@@ -2,6 +2,7 @@
 @import url("footer.css");
 @import url("video.css");
 @import url("music.css");
+@import url("contact.css");
 
 *,
 *::before,
@@ -307,8 +308,8 @@ video {
     .blog-post-card {
         grid-area: mn;
         width: 75vw;
-        max-width: 550px;
-        min-width: 526px;
+        max-width: 450px;
+        min-width: 400px;
         max-height: 320px;
         padding: 20px;
         background-color: rgb(63, 227, 63);
@@ -320,12 +321,12 @@ video {
         box-shadow: 5px 10px rgb(100, 3, 170);
     }
 
-    .blog-post-title {
+    .blog-post-title-main {
         align-self: center;
+        font-size: 16px;
         padding-left: 2.3em;
         margin-top: 1px;
         margin-left: .42em;
-        display: inline;
     }
 
 /* Listen Button */

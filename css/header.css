@@ -5,7 +5,7 @@
     }
 
 /* CENTER LISTEN BUTTON */
-    .listen-page {
+    .listen-page{
         display: flex;
         justify-content: center;
     }
@@ -14,7 +14,7 @@
         margin: 0 auto;
     }
     .header{
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
 }
 /* VIEWPORT 321px-430px */
@@ -24,10 +24,11 @@
         margin-right: auto;
     }
 
-    .title {
+    .title{
         color: lawngreen;
     }
-    .header {
+
+    .header{
         min-width: 100%;
         min-height: 100%;
         margin-bottom: .2em;
@@ -36,6 +37,7 @@
         text-align: center;
         padding-bottom: .5em;
     }
+
     .navbar-flex{
         list-style-type: none;
         margin:0;
@@ -51,14 +53,18 @@
     a:link{
         text-decoration: none;
     }
+    
     a:visited{
         text-decoration: none;
     }
+    
     .avatar {
         border-radius: 100%;
     }
+    
     nav h1 {
      text-align: center;
+    
     }
     .button {
         align-items: center;
@@ -84,21 +90,14 @@
     a:link{
         text-decoration: none;
     }
+
     a:visited{
         text-decoration: none;
     }
+
     .avatar {
         border-radius: 100%;
     }
-
-    /* nav h1 {
-        display: inline;
-    } */
-    /* .contact {
-        display: inline;
-        margin-left: 2em;
-    }   */
-
 }
 
 @media(min-width:573px)and (max-width:900px){
@@ -106,7 +105,7 @@
         color: lawngreen;
     }
     
-    header {
+    header{
         display: flex;
         grid-area: hd;
         min-width: 100%;
@@ -116,15 +115,19 @@
         background-color: #043131;
         padding-top: .5em;
     }
+
     a:link{
         text-decoration: none;
     }
+
     a:visited{
         text-decoration: none;
     }
+
     .avatar {
         border-radius: 100%;
     }
+
     nav h1 {
         display: inline;
     }
@@ -149,17 +152,12 @@
     a:link{
         text-decoration: none;
     }
+    
     a:visited{
         text-decoration: none;
     }
+    
     .avatar {
         border-radius: 100%;
     }
 }
-    /* nav h1 {
-        display: inline;
-    }
-    .contact {
-        display: inline;
-        margin-left: 2em;
-    } */
