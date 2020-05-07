@@ -1,5 +1,4 @@
 @media(max-width:320px){
- 
     li.navbar-li{
         font-size:.5em;
     }
@@ -58,15 +57,15 @@
         text-decoration: none;
     }
     
-    .avatar {
+    .avatar{
         border-radius: 100%;
     }
     
-    nav h1 {
+    nav h1{
      text-align: center;
     
     }
-    .button {
+    .button{
         align-items: center;
     }
 }
@@ -76,7 +75,7 @@
         color: lawngreen;
     }
     
-    header {
+    header{
         display: flex;
         grid-area: hd;
         min-width: 100%;
@@ -95,7 +94,7 @@
         text-decoration: none;
     }
 
-    .avatar {
+    .avatar{
         border-radius: 100%;
     }
 }
@@ -124,11 +123,11 @@
         text-decoration: none;
     }
 
-    .avatar {
+    .avatar{
         border-radius: 100%;
     }
 
-    nav h1 {
+    nav h1{
         display: inline;
     }
 }
@@ -138,7 +137,7 @@
         color: lawngreen;
     }
     
-    header {
+    header{
         display: flex;
         grid-area: hd;
         min-width: 100%;
@@ -157,7 +156,7 @@
         text-decoration: none;
     }
     
-    .avatar {
+    .avatar{
         border-radius: 100%;
     }
 }

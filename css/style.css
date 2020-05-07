@@ -48,7 +48,7 @@ li {
 video {
         width: 81%;
         margin-left: 42px;
-      }
+}
 
 @media(max-width:320px){
     h2 {
@@ -94,6 +94,7 @@ video {
     .blog-post-info {
         height: 224px;
     }
+
 /* VIDEO PAGE */
     body{
         background-color: rgb(32, 128, 32);
@@ -120,18 +121,14 @@ video {
         display: block;
         margin: 11px auto;
         width: 80%;
-      }
-
-}
-
-@media(min-width:431px)and(max-width:572){
-    h2 {
-        font-size: .75em;
     }
 
-    .navbar-li {
-        font-size: small;
-    }  
+}
+/* 
+@media(min-width:431px)and(max-width:572){
+   
+
+    
 
     .blog-post-card {
         grid-area: mn;
@@ -153,7 +150,7 @@ video {
 
     .blog-post-title-main {
         /* display: inline-block; */
-        margin-left: -5.5em;
+        /* margin-left: -5.5em;
     }
 
     .blog-post-text{
@@ -161,7 +158,7 @@ video {
     }
 
 /*MUSIC PAGE*/
-    .blog-post-title-music{
+    /* .blog-post-title-music{
         font-size: inherit;
         text-align: center;
     }
@@ -174,22 +171,19 @@ video {
     audio{
         align-self: center;
     }
+ */
 
-
-}
-
-@media(min-width:572px)and (max-width:900px){
+@media(min-width:431px)and (max-width:900px){
     body{
         display: grid;
         grid-template-rows: 50px auto 1fr;
-        /* grid-template-columns: auto auto; */
         grid-template-areas:
-                "hd "
-                "mn "
-                "ft ";
-        /* min-height: 100%; */
+                "hd"
+                "mn"
+                "ft";
         background-color: #0a6363;
     }
+
     .blog-post-card{
         grid-area: mn;
         width: 75vw;
@@ -201,6 +195,7 @@ video {
         background-color: rgb(32, 128, 32);
         display: flex;
         align-items: center;
+        justify-items: center;
         border-radius: .8rem;
         box-shadow: 5px 10px rgb(100, 3, 170);
         margin-left:auto;
@@ -209,20 +204,16 @@ video {
         margin-bottom: 20px;
     }
 
-    .blog-post-title-main {
-
-        /* display: inline-block; */
-        /* margin-left: -5.5em; */
-    }
-
     .blog-post-title-main{
-        font-size: 1.3em;
+        font-size: 18px;
+        margin-left: 50px;
+        text-align: center;
     }
 
 /* LISTEN BUTTON */
-    .listen-button {
+    .listen-button{
         padding: 11px 20px;
-        margin-left: 7em;
+        margin-left: 6em;
         margin-top: 5em;
         background-color: honeydew;
         border: 2px dotted rgb(238, 73, 238);
@@ -230,18 +221,18 @@ video {
         cursor: pointer;
     }
 
-    .button:hover, .listen-button:hover {
+    .button:hover, .listen-button:hover{
         filter: blur(1px);
     }
 
-    .blog-post-text {
+    .blog-post-text{
         padding-left: 1em;
         margin-left: 1em;
         color: rgb(0, 0, 0);
         display: inline;
     }
 
-    .blog-post-info {
+    .blog-post-info{
         height: 224px;
     }
 
@@ -250,16 +241,24 @@ video {
     }
 
 /*MUSIC PAGE*/
+    .blog-post-card{
+        max-width: 450px;
+        min-width: 400px;
+    }
+
     .blog-post-title-music{
         font-size: inherit;
         text-align: center;
     }
+
     .blog-post-text-music{
         text-align: center;
     }
+
     .img-music{
         /* display:none; */
     }
+
     audio{
         align-self: center;
     }
@@ -272,13 +271,16 @@ video {
     .img-video{
         display:none;
     }
+
     .blog-post-title-video{
         text-align: center;
     }
+
     .blog-post-text-video{
         text-align: center;
         font-size: small;
     }
+
     .video-player{
         max-height: 175px;
     }
@@ -286,8 +288,7 @@ video {
 
 /*Bigger Monitors*/
 @media(min-width:901px){
-    
-    body {
+    body{
         display: grid;
         grid-template-rows: auto auto 1fr;
         grid-template-areas:
@@ -300,17 +301,16 @@ video {
         background-color: #066868;
     }
 
-    header {
+    header{
         display: flex;
-
     }
 
-    .blog-post-card {
+    .blog-post-card{
         grid-area: mn;
         width: 75vw;
+        max-height: 320px;
         max-width: 450px;
         min-width: 400px;
-        max-height: 320px;
         padding: 20px;
         background-color: rgb(63, 227, 63);
         display: flex;
@@ -321,7 +321,7 @@ video {
         box-shadow: 5px 10px rgb(100, 3, 170);
     }
 
-    .blog-post-title-main {
+    .blog-post-title-main{
         align-self: center;
         font-size: 16px;
         padding-left: 2.3em;
@@ -330,9 +330,9 @@ video {
     }
 
 /* Listen Button */
-    .listen-button {
+    .listen-button{
         padding: 11px 20px;
-        margin-left: 11em;
+        margin-left: 6em;
         margin-top: 5em;
         background-color: honeydew;
         border: 2px dotted purple;
@@ -340,38 +340,35 @@ video {
         cursor: pointer;
     }
 
-    .button:hover, .listen-button:hover {
+    .button:hover, .listen-button:hover{
         filter: blur(1px);
     }
 
-    .blog-post-text {
+    .blog-post-text{
         padding-left: 1em;
         margin-left: 1em;
         color: rgb(0, 0, 0);
         display: inline;
     }
 
-    .blog-post-info {
+    .blog-post-info{
         height: 224px;
     }
 
     img{
         max-width: 100%;
     }
+
     /*MUSIC PAGE*/
     .blog-post-title-music{
         font-size: inherit;
         text-align: center;
     }
+
     .blog-post-text-music{
         text-align: center;
     }
-    .img-music{
-        /* display:none; */
-    }
-    audio{
-        align-self: center;
-    }
+}
 
 /* VIDEO PAGE */
     .video-post-card{
@@ -381,13 +378,16 @@ video {
     .img-video{
         display:none;
     }
+
     .blog-post-title-video{
         text-align: center;
     }
+
     .blog-post-text-video{
         text-align: center;
         font-size: small;
     }
+
     .video-player{
         max-height: 175px;
     }
